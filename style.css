@@ -75,9 +75,13 @@ background-color: rgb(247, 193, 193);
 
 @media screen and (max-width: 576px) {
     .celcluter{
-        top:222px;
+        top:265px;
         left: -134px;
+        height: 500px;
        
+    }
+    .all-btn button{
+        margin-top: 20px;
     }
 
 }
