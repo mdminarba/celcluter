@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 500px;
+    background: ghostwhite;
+    position: relative;
+}
+
+.celcluter{
+    position: absolute;
+    top:222px;
+    left: 0px;
+    border-radius: 10px;
+    background: palevioletred;
+    transform: translate(50%, -50%);
+    text-align: center;
+    padding:25px ;
+    box-shadow: 25px 25px 70px rgba(0, 0, 0, 0.5),15px 15px 50px rgba(0, 0, 0, 0.5),
+    inset 10px 10px 10px rgba(0, 0, 0, 0.5),
+    inset -10px -10px 10px rgba(0, 0, 0, 0.5);
+}
+.uotput{
+    width: 250px;
+    height: 75px;
+    text-align: end;
+    background-color: rgb(230, 11, 175);
+    box-sizing: 10px;
+    font-size: 30px;
+    border: 0;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #f3ecec,
+     inset -5px -5px 10px #f3f0f0;
+    background-color:rgb(199, 185, 247);
+    margin: 10px;
+    
+  
+
+}
+.all-btn{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.all-btn button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px #a30707, inset -5px -5px 10px #a30707;
+    background-color:rgb(199, 185, 247)
+
+}
+.all-btn button:active{
+    box-shadow: 0 0 10px yellow;
+}
+
+.all-btn .clr{
+grid-column: span 2;
+width:110px;
+background-color: red;
+}
+.all-btn .plas{
+grid-row: span 2;
+height:110px;
+background-color: rgb(247, 193, 193);
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .celcluter{
+        top:222px;
+        left: -134px;
+       
+    }
+
+}
